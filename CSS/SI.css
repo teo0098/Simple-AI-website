@@ -1,0 +1,120 @@
+.SI{
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    background: #eef2f3;
+    align-items: center;
+}
+
+.SI__intro{
+    width: 100%;
+    background: rgb(75, 17, 17);
+    color: #8e9eab;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SI__h1{
+    letter-spacing: 0.5vmin;
+    word-spacing: 0.3vmin;
+    font-size: 5vmin;
+    font-family: 'Lato', sans-serif;
+}
+
+.SI__article{
+    width: 80%;
+    padding: 2vh;
+    margin-top: 3vh; 
+}
+
+.SI__h2{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 4vmin;
+}
+
+.SI__p{
+    margin-top: 3vh;
+    font-size: 2.3vmin;
+    letter-spacing: 0.1vmin;
+    word-spacing: 0.2vmin;
+    line-height: 1.5;
+}
+
+.SI__p::first-letter{
+    font-size: 5vmin;
+}
+
+.SI__ul{
+    list-style-type: square;
+    list-style-position: inside;
+    padding: 2vh;
+    line-height: 1.5;
+    letter-spacing: 0.1vmin;
+    font-size: 2.3vmin;
+}
+
+.SI__li{
+    padding: 1vh;
+}
+
+.skip{
+    position: fixed;
+    font-size: 2.3vmin;
+    top: 50vh;
+    color: white;
+    background-color: black;
+    transform: translateX(-15vw);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.skip:hover{
+    transform: translateX(0vw);
+}
+
+.skip:hover .skip__wrapout{
+    width: 0;
+    opacity: 0;
+}
+
+.skip__headings{
+    width: 15vw;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.skip:hover .skip__headings{
+    opacity: 1;
+}
+
+.skip__h3{
+    background-color: black;
+    border-left: 0.1vmin solid white;
+    padding: 1vmin;
+    margin: 1vmin;
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+    position: relative;
+    z-index: 996;
+    border-bottom-right-radius: 1vmin;
+    border-top-right-radius: 3vmin;
+}
+
+.skip__h3:hover{
+    transform: translateX(3vh);
+}
+
+.skip__wrapout{
+    width: 5vw;
+    text-align: center;
+    font-size: 3vmin;
+    position: relative;
+    z-index: 997;
+    transition: all 0.3s ease-in-out;
+}
