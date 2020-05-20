@@ -8,11 +8,3 @@
 </ul>
 <hr>
 <a href="https://teo0098.github.io/Simple-AI-website/" target="_blank">Project's preview</a>
-<hr>
-<img src="https://raw.githubusercontent.com/teo0098/Simple-AI-website/master/respimage.jpg"/>
-<hr>
-<img alt="Home page" src="https://github.com/teo0098/Simple-AI-website/blob/master/image.jpg">
-<hr>
-<img alt="Home page" src="https://github.com/teo0098/Simple-AI-website/blob/master/image2.jpg">
-<hr>
-<img alt="Home page" src="https://github.com/teo0098/Simple-AI-website/blob/master/image3.jpg">
